@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: aliceblue;
+    }
+    nav {
+      background-color: #f1f1f1;
+      padding: 1em;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0; margin: 0;
+    }
+    nav ul li {
+      margin: 0 2rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
+    main {
+      flex: 1;
+      padding: 2em;
+      display: flex;
+      justify-content: center;
+    }
+    form {
+      background-color: white;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+    form label {
+      display: block;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 0.7em 2em;
+      background-color: rgb(128, 140, 149);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: rgb(113, 124, 134);
+    }
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="G21.html">Home</a></li>
+      <li><a href="G21_about.html">About</a></li>
+      <li><a href="G21_project.html">Projects</a></li>
+      <li><a href="G21_contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form>
+      <h2>Contact Me</h2>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Portfolio - All rights reserved</p>
+    <p>Contact:
+      <a href="https://www.linkedin.com/in/samridhi-gumber-929b36319/" target="_blank" style="margin-right: 15px;">LinkedIn</a>
+      <a href="https://github.com/samridhi78B" target="_blank">GitHub</a>
+    </p>
+    <p>Follow me on <a href="#">Instagram</a></p>
+  </footer>
+</body>
+</html>
