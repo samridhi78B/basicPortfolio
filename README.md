@@ -26,25 +26,6 @@ Before you begin, make sure you have the following installed:
 Open in your editor
 Open the folder in VS Code or your preferred editor.
 
-Follow the tutorial steps
-
-Read through each section in order.
-
-Run the example code.
-
-Try out the exercises.
-
-📁 Project Structure
-bash
-Copy
-Edit
-basic-tutorial/
-│
-├── G21.html            # Main HTML file
-├── G21_about.html      # About HTML file
-├── G21_projects.html   # Project HTML file
-├── G21_contact.html    # Contact HTML file
-├── README.md         # Project instructions
 
 ✅ Tips
 Take notes as you go.
